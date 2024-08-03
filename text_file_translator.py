@@ -35,6 +35,7 @@ def get_users_setting():
   languch = get_lenguch_to_translet()
   return [languch,file_path,file_name]
 
+#function for translate file
 def get_split(text:str, step=0):
   step_split = ["\n",".",","," "]
   
@@ -71,7 +72,6 @@ def get_split(text:str, step=0):
     
   return fragments
 
-#function for translate file
 def get_fragments(text:str):
   text_fragments = get_split(text)
   litras_count = 0
