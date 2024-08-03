@@ -1,4 +1,4 @@
-# -ext-file-translator
+# text-file-translator
 In this project I use the open source library for python "deep_translator".
 in particular I use the translator "GoogleTranslator".
 
